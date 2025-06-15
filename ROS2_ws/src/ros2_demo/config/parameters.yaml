@@ -1,0 +1,15 @@
+server_node:
+  ros__parameters:
+    service: 'add_two_ints'
+
+client_node_async:
+  ros__parameters:
+    service: 'add_two_ints'
+
+action_server_node:
+  ros__parameters:
+    action_service: 'fibonacci_service'
+
+action_client_node:
+  ros__parameters:
+    action_service: 'fibonacci_service'
